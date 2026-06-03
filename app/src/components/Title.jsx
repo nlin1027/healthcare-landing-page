@@ -13,17 +13,18 @@ export default function Title() {
 
       <div className="hero-content">
         <div className="hero-text">
-          <h1>Your Partner in Health and Wellness</h1>
+          <h1>Primary Care Connect</h1>
           <p>
-            Compassionate care, trusted support, and accessible health services
-            designed to help you and your family live well.
+            A community initiative coordinated by Unison Health and Community Services, 
+            healthcare and community partners to help connect people to family doctors, 
+            nurse practitioners and primary care services across Northwest Toronto.
           </p>
         </div>
 
         <div className="hero-doctor-wrapper">
           <img
             src=""
-            alt="Doctors"
+            alt=""
             className="hero-doctor-image"
           />
         </div>
