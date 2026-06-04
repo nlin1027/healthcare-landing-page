@@ -57,6 +57,7 @@
   font-weight: 800;
   letter-spacing: -0.04em;
   color: #ffffff;
+  text-shadow: 0 4px 25px rgba(6, 49, 53, 0.786);
 }
 
 .doctor-cta-text p {
@@ -74,8 +75,8 @@
   padding: 15px 28px;
   border-radius: 999px;
   background-color: #ffffff;
-  color: #1ca1b3;
-  font-size: 0.98rem;
+  color: #0e8e9f;
+  font-size: 1.2rem;
   font-weight: 800;
   text-decoration: none;
   box-shadow: 0 14px 35px rgba(0, 70, 75, 0.22);

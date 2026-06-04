@@ -22,9 +22,9 @@
   inset: 0;
   background: linear-gradient(
     90deg,
-    rgba(60, 176, 180, 0.92) 0%,
-    rgba(85, 206, 210, 0.78) 55%,
-    rgba(165, 226, 235, 0.55) 100%
+    rgba(10, 99, 105, 0.88) 0%,
+    rgba(28, 161, 179, 0.72) 45%,
+    rgba(205, 250, 247, 0.35) 100%
   );
   backdrop-filter: blur(2px);
   z-index: 2;
@@ -48,6 +48,11 @@
 .hero-text {
   width: 50%;
   max-width: 560px;
+  padding: 32px;
+  border-radius: 28px;
+  background-color: rgb(22, 117, 129);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 24px 60px rgba(6, 68, 73, 0.553);
 }
 
 .hero-text h1 {
@@ -57,36 +62,24 @@
   font-weight: 800;
   color: #ffffff;
   letter-spacing: -0.04em;
+  text-shadow: 0 4px 18px rgba(6, 49, 53, 0.786);
 }
 
 .hero-text p {
   margin: 0;
   max-width: 460px;
-  font-size: clamp(0.95rem, 1.4vw, 1.2rem);
+  font-size: 1.5rem;
   line-height: 1.6;
   color: rgba(255, 255, 255, 0.9);
-}
-
-.hero-doctor-wrapper {
-  width: 48%;
-  height: 100%;
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
-}
-
-.hero-doctor-image {
-  max-width: 100%;
-  max-height: 95%;
-  object-fit: contain;
-  object-position: bottom center;
+  text-shadow: 0 4px 18px rgb(0, 0, 0);
 }
 
 /* Mobile */
 @media (max-width: 768px) {
   .hero-title-card {
-    height: 60vh;
+    height: 70vh;
     min-height: 420px;
+
   }
 
   .hero-overlay {
@@ -107,18 +100,18 @@
   }
 
   .hero-text {
-    width: 100%;
+    width: 90%;
     max-width: 500px;
   }
 
   .hero-text h1 {
     margin-bottom: 14px;
-    font-size: clamp(2rem, 9vw, 3rem);
+    font-size: 3rem;
   }
 
   .hero-text p {
     max-width: 100%;
-    font-size: 0.95rem;
+    font-size: 1.3rem;
   }
 
   .hero-doctor-wrapper {

@@ -25,9 +25,7 @@
 .footer-logo-row {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
   gap: 24px;
-  overflow-x: auto;
   padding-bottom: 6px;
 }
 
@@ -50,7 +48,7 @@
 
 .footer-logo-item p {
   margin: 0;
-  font-size: 0.82rem;
+  font-size: 1rem;
   line-height: 1.3;
   color: rgba(255, 255, 255, 0.88);
 }
@@ -64,7 +62,7 @@
 
 .footer-funded p {
   margin: 0;
-  font-size: 0.95rem;
+  font-size: 1.2rem;
   font-weight: 700;
   color: #ffffff;
 }
@@ -83,13 +81,13 @@
 
 .footer-info h3 {
   margin: 0 0 12px;
-  font-size: 1.35rem;
+  font-size: 1.8rem;
   color: #ffffff;
 }
 
 .footer-info p {
   margin: 0;
-  font-size: 0.95rem;
+  font-size: 1.2rem;
   line-height: 1.7;
   color: rgba(255, 255, 255, 0.78);
 }
@@ -140,17 +138,20 @@
 
   .footer-logo-row {
     width: 100%;
-    justify-content: flex-start;
+    justify-content: center;
+    align-items: flex-start;
     gap: 18px;
+    flex-wrap: wrap;
   }
 
   .footer-logo-item {
-    min-width: 78px;
+    min-width: 82px;
+    max-width: 30%;
   }
 
   .footer-logo-image {
-    width: 62px;
-    height: 62px;
+    width: 64px;
+    height: 64px;
   }
 
   .footer-funded {

@@ -15,18 +15,10 @@ export default function Title() {
         <div className="hero-text">
           <h1>Primary Care Connect</h1>
           <p>
-            A community initiative coordinated by Unison Health and Community Services, 
+            A community initiative coordinated by <p style={{ fontWeight: "bold", fontSize: "1.5rem" }}>Unison Health and Community Services,</p> 
             healthcare and community partners to help connect people to family doctors, 
             nurse practitioners and primary care services across Northwest Toronto.
           </p>
-        </div>
-
-        <div className="hero-doctor-wrapper">
-          <img
-            src=""
-            alt=""
-            className="hero-doctor-image"
-          />
         </div>
       </div>
     </section>
