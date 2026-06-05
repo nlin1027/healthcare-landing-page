@@ -20,7 +20,7 @@ export default function Location() {
     },
     {
       name: "Humber River Hospital - Schulich Family Medicine Teaching Unit - 1235 Wilson Ave, Toronto (Keele & Wilson)",
-      code: "HR",
+      code: "HH",
       borderRadius: "50%",
       description: "",
       color: "#ff6b6b",
@@ -44,7 +44,7 @@ export default function Location() {
     {
       name: "Unison's Oakwood Vaughan location - 501 Oakwood Avenue (Oakwood & Vaughan Road)",
       code: "OV",
-      borderRadius: "50%",
+      borderRadius: "8px",
       description:
         "Free interpreter service, free health programs and services, and you may qualify even without OHIP.",
       color: "#e64980",
