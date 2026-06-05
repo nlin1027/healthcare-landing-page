@@ -35,7 +35,7 @@ export default function Location() {
     },
     {
       name: "Unison Jane Street Hub - 1541 Jane Street (Jane & Trethewey)",
-      code: "JS",
+      code: "JT",
       borderRadius: "8px",
       description:
         "Free parking, free interpreter service, free health programs and services, and you may qualify even without OHIP.",
