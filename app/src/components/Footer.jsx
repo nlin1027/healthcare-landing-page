@@ -40,7 +40,7 @@ export default function Footer() {
 
         <div className="footer-bottom">
           <div className="footer-info">
-            <h3>Primary Care Connect</h3>
+            <h3>Connect to Care</h3>
             <p>
               Helping individuals and families connect with available family
               doctors and nurse practitioners in the community.
@@ -49,7 +49,7 @@ export default function Footer() {
         </div>
 
         <div className="footer-copy">
-          <p>© 2026 Primary Care Connect. All rights reserved.</p>
+          <p>© 2026 Connect to Care. All rights reserved.</p>
         </div>
       </div>
     </footer>
