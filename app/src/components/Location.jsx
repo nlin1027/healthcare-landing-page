@@ -4,38 +4,57 @@ export default function Location() {
   const locations = [
     {
       name: "Azar Medical Clinic - 7099 Yonge Street, Thornhill (Yonge & Steeles)",
+      code: "AZ",
+      borderRadius: "50%",
       description:
         "Free parking, in-person and online appointments available, pediatrician and endocrinologist available.",
       color: "#22b8cf",
     },
     {
       name: "Unison Bathurst-Finch Hub - 504 Finch Avenue West (Bathurst and Finch)",
-      description: "Free parking, free interpreter service, free health programs and services, and you may qualify even without OHIP.",
+      code: "BF",
+      borderRadius: "8px",
+      description:
+        "Free parking, free interpreter service, free health programs and services, and you may qualify even without OHIP.",
       color: "#4dabf7",
     },
     {
       name: "Humber River Hospital - Schulich Family Medicine Teaching Unit - 1235 Wilson Ave, Toronto (Keele & Wilson)",
+      code: "HR",
+      borderRadius: "50%",
       description: "",
       color: "#ff6b6b",
     },
     {
       name: "Unison's Lawrence Heights - 12 Flemington Road (Lawrence & Allen Road)",
-      description: "Free parking, free interpreter service, free health programs and services, and you may qualify even without OHIP.",
+      code: "LH",
+      borderRadius: "8px",
+      description:
+        "Free parking, free interpreter service, free health programs and services, and you may qualify even without OHIP.",
       color: "#845ef7",
     },
     {
       name: "Unison Jane Street Hub - 1541 Jane Street (Jane & Trethewey)",
-      description: "Free parking, free interpreter service, free health programs and services, and you may qualify even without OHIP.",
+      code: "JS",
+      borderRadius: "8px",
+      description:
+        "Free parking, free interpreter service, free health programs and services, and you may qualify even without OHIP.",
       color: "#f59f00",
     },
     {
       name: "Unison's Oakwood Vaughan location - 501 Oakwood Avenue (Oakwood & Vaughan Road)",
-      description: "Free interpreter service, free health programs and services, and you may qualify even without OHIP.",
+      code: "OV",
+      borderRadius: "50%",
+      description:
+        "Free interpreter service, free health programs and services, and you may qualify even without OHIP.",
       color: "#e64980",
     },
     {
       name: "Unison's Keele Rogers location - 1651 Keele Street (Keele & Rogers)",
-      description: "Free interpreter service, free health programs and services, and you may qualify even without OHIP.",
+      code: "KR",
+      borderRadius: "8px",
+      description:
+        "Free interpreter service, free health programs and services, and you may qualify even without OHIP.",
       color: "#51cf66",
     },
   ];
@@ -66,7 +85,19 @@ export default function Location() {
                 key={index}
                 style={{ "--location-color": location.color }}
               >
-                <h3>{location.name}</h3>
+                <h3 className="location-title">
+                  <span
+                    className="location-logo"
+                    style={{
+                      backgroundColor: location.color,
+                      borderRadius: location.borderRadius,
+                    }}
+                  >
+                    {location.code}
+                  </span>
+
+                  <span>{location.name}</span>
+                </h3>
 
                 {location.description && <p>{location.description}</p>}
               </div>
