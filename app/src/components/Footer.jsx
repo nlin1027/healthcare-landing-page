@@ -5,14 +5,17 @@ export default function Footer() {
     {
       name: "Azar Medical Clinic",
       image: "/images/azar-logo.png",
+      link: "https://www.azarmed.ca"
     },
     {
       name: "Unison Health and Community Services",
       image: "/images/unison-logo.png",
+      link: "https://unisonhcs.org"
     },
     {
       name: "Hennick Humber Hospital",
       image: "/images/humber-river-hospital-logo.png",
+      link: "https://www.hrh.ca/programs/schulich-family-medicine-teaching-unit/"
     }
   ];
 
@@ -23,11 +26,15 @@ export default function Footer() {
           <div className="footer-logo-row">
             {logos.map((logo, index) => (
               <div className="footer-logo-item" key={index}>
-                <img
-                  src={logo.image}
-                  alt={logo.name}
-                  className="footer-logo-image"
-                />
+                <a href={logo.link}>
+                  <img
+                    src={logo.image}
+                    alt={logo.name}
+                    className="footer-logo-image"
+                    href
+                  />
+                </a>
+                
                 <p>{logo.name}</p>
               </div>
             ))}

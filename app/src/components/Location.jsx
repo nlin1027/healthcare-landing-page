@@ -11,7 +11,7 @@ export default function Location() {
       color: "#22b8cf",
     },
     {
-      name: "Unison Bathurst-Finch Hub - 504 Finch Avenue West (Bathurst and Finch)",
+      name: "Unison's Bathurst-Finch Hub - 504 Finch Avenue West (Bathurst and Finch)",
       code: "BF",
       borderRadius: "8px",
       description:
@@ -34,7 +34,7 @@ export default function Location() {
       color: "#845ef7",
     },
     {
-      name: "Unison Jane Street Hub - 1541 Jane Street (Jane & Trethewey)",
+      name: "Unison's Jane Street Hub - 1541 Jane Street (Jane & Trethewey)",
       code: "JT",
       borderRadius: "8px",
       description:
