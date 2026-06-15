@@ -1,0 +1,4 @@
+<div className="hero-kicker">
+    <img className="hero-banner" src="/images/connect-to-care-banner-1.png"/>
+</div>
+^^ first item in hero-text of title.jsx

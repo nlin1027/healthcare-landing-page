@@ -13,7 +13,6 @@ export default function Title() {
 
       <div className="hero-content">
         <div className="hero-text">
-          <p className="hero-kicker">Connect to Care</p>
 
           <h1>
             Are you looking for a family doctor or nurse practitioner?
