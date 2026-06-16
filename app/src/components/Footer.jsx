@@ -41,7 +41,8 @@ export default function Footer() {
           </div>
 
           <div className="footer-funded">
-            <p>Funded by Ontario Health</p>
+            <p>Funded by </p>
+            <img className="on-health-logo" src="/images/on-health-logo.png"/>
           </div>
         </div>
 
