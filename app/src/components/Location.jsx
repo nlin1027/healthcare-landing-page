@@ -22,7 +22,8 @@ export default function Location() {
       name: "Humber River Hospital - Schulich Family Medicine Teaching Unit - 1235 Wilson Ave, Toronto (Keele & Wilson)",
       code: "HH",
       borderRadius: "50%",
-      description: "",
+      description:
+        "Free interpreter service, access to social worker, dietitian, pharmacist, nurse practitioner, and nurses, evening and weekend walk-in visits available for urgent needs, reduced parking rate at $5 per day available.",
       color: "#ff6b6b",
     },
     {
