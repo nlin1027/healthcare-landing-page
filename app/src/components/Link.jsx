@@ -15,7 +15,7 @@ export default function Link() {
         <div className="doctor-cta-text">
           <h2>To Help Get You Connected</h2>
 
-          <a href="https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fforms.cloud.microsoft%2Fr%2FHMjH6BhxFA&data=05%7C02%7CAmy.Cheng%40unisonhcs.org%7C07c98cbf8e9e44920dfa08debb5096ca%7C3a25ac2e73fa46e092cb1a68a4d98258%7C0%7C0%7C639154152488369357%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=ML88hEjRr6rPiAZvBtdZpZbjdsIH6XkzTCjQCBcMx3o%3D&reserved=0" className="doctor-cta-button">
+          <a href="https://ocean.cognisantmd.com/eRequest/557cb0e5-8461-45a3-917b-e4a696050aa7" className="doctor-cta-button">
             Click Here to Register
           </a>
         </div>
