@@ -22,7 +22,7 @@ export default function Link() {
 
         <div className="doctor-cta-image-wrapper">
           <img
-            src="/images/qr-code.png"
+            src="/images/qr-code-2.png"
             alt="QR-CODE"
             className="doctor-cta-image"
           />

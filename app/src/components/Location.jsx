@@ -35,6 +35,13 @@ export default function Location() {
       color: "#845ef7",
     },
     {
+      name: "Generations Family Health Centre - 3080 Yonge Street (Yonge & Lawrence)",
+      code: "GF",
+      borderRadius: "50%",
+      description: "",
+      color: "#1342dd",
+    },
+    {
       name: "Unison's Jane Street Hub - 1541 Jane Street (Jane & Trethewey)",
       code: "JT",
       borderRadius: "8px",
@@ -65,7 +72,7 @@ export default function Location() {
       <div className="location-card">
         <div className="location-image-wrapper">
           <img
-            src="/images/map-image.png"
+            src="/images/map-image-2.png"
             alt="Map showing program locations"
             className="location-image"
           />
