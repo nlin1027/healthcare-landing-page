@@ -12,8 +12,8 @@ function App() {
     <>
       <Bar/>
       <Title/>
-      <Location/>
       <Link/>
+      <Location/>
       <Footer/>
     </>
   )
