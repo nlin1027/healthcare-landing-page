@@ -19,7 +19,7 @@ export default function Location() {
       color: "#4dabf7",
     },
     {
-      name: "Humber River Hospital - Schulich Family Medicine Teaching Unit - 1235 Wilson Ave, Toronto (Keele & Wilson)",
+      name: "Hennick Humber Hospital - Schulich Family Medicine Teaching Unit - 1235 Wilson Ave, Toronto (Keele & Wilson)",
       code: "HH",
       borderRadius: "50%",
       description:
