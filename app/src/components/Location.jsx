@@ -7,7 +7,7 @@ export default function Location() {
       code: "HH",
       borderRadius: "50%",
       description:
-        "Short wait time, free interpreter service, access to social worker, dietitian, pharmacist, nurse practitioner, and nurses, evening and weekend hours available for urgent needs, reduced parking rate at $5 per day available. OHIP and IFH required.",
+        "Short wait time, free interpreter service, access to social worker, dietitian, pharmacist, nurse practitioner, and nurses, evening and weekend hours available for urgent needs, easier access to specialists in the hospital. OHIP and IFH required.",
       color: "#ff6b6b",
     },
     {
