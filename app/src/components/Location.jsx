@@ -3,6 +3,14 @@ import "./Location.css";
 export default function Location() {
   const locations = [
     {
+      name: "Hennick Humber Hospital - Schulich Family Medicine Teaching Unit - 1235 Wilson Ave, Toronto (Keele & Wilson)",
+      code: "HH",
+      borderRadius: "50%",
+      description:
+        "Short wait time, free interpreter service, access to social worker, dietitian, pharmacist, nurse practitioner, and nurses, evening and weekend hours available for urgent needs, reduced parking rate at $5 per day available. OHIP and IFH required.",
+      color: "#ff6b6b",
+    },
+    {
       name: "Azar Medical Clinic - 7099 Yonge Street, Thornhill (Yonge & Steeles)",
       code: "AZ",
       borderRadius: "50%",
@@ -17,14 +25,6 @@ export default function Location() {
       description:
         "Free parking, free interpreter service, free health programs and services, and you may qualify even without OHIP.",
       color: "#4dabf7",
-    },
-    {
-      name: "Hennick Humber Hospital - Schulich Family Medicine Teaching Unit - 1235 Wilson Ave, Toronto (Keele & Wilson)",
-      code: "HH",
-      borderRadius: "50%",
-      description:
-        "Free interpreter service, access to social worker, dietitian, pharmacist, nurse practitioner, and nurses, evening and weekend walk-in visits available for urgent needs, reduced parking rate at $5 per day available.",
-      color: "#ff6b6b",
     },
     {
       name: "Unison's Lawrence Heights - 12 Flemington Road (Lawrence & Allen Road)",
