@@ -153,12 +153,31 @@
     display: block;
   }
 
+  .location-content h2 {
+    font-size: clamp(2rem, 9vw, 2.6rem);
+  }
+
+  .location-description {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 22px;
+  }
+
   .location-list {
     gap: 14px;
   }
 
   .location-list-item {
     padding: 16px 16px 16px 20px;
+    border-left-width: 10px;
+  }
+
+  .location-list-item h3 {
+    font-size: 1.05rem;
+  }
+
+  .location-list-item p {
+    font-size: 0.95rem;
   }
 }
 

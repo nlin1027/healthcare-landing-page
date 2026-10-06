@@ -150,13 +150,18 @@
     width: 100%;
     justify-content: center;
     align-items: flex-start;
-    gap: 18px;
-    flex-wrap: wrap;
+    gap: 12px;
+    flex-wrap: nowrap;
   }
 
   .footer-logo-item {
-    min-width: 82px;
-    max-width: 30%;
+    flex: 1 1 0;
+    min-width: 0;
+    max-width: 110px;
+  }
+
+  .footer-logo-item p {
+    font-size: 0.85rem;
   }
 
   .footer-logo-image {

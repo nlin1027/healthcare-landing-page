@@ -30,16 +30,32 @@
 
 .contact-phone {
   display: inline-flex;
-  align-items: center;
+  align-items: baseline;
   justify-content: center;
+  flex-wrap: wrap;
+  gap: 4px 14px;
   margin: 0;
-  padding: 15px 28px;
+  padding: 18px 40px;
   border-radius: 999px;
   background-color: #ffffff;
-  color: #0e8e9f;
-  font-size: 1.2rem;
-  font-weight: 800;
   box-shadow: 0 14px 35px rgba(0, 70, 75, 0.22);
+  box-sizing: border-box;
+}
+
+.contact-label,
+.contact-ext {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #4d6469;
+}
+
+.contact-number {
+  font-size: clamp(1.9rem, 6vw, 2.8rem);
+  font-weight: 800;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  color: #0e8e9f;
+  white-space: nowrap;
 }
 
 /* Mobile */
@@ -50,7 +66,11 @@
 
   .contact-phone {
     width: 100%;
-    max-width: 320px;
-    font-size: 1.05rem;
+    max-width: 360px;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+    padding: 20px 24px;
+    border-radius: 28px;
   }
 }
