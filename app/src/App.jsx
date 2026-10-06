@@ -5,6 +5,7 @@ import Title from './components/Title.jsx';
 import Location from './components/Location.jsx';
 import Team from './components/Team.jsx';
 import Link from './components/Link.jsx';
+import Contact from './components/Contact.jsx';
 import Footer from './components/Footer.jsx';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Title/>
       <Link/>
       <Location/>
+      <Contact/>
       <Footer/>
     </>
   )

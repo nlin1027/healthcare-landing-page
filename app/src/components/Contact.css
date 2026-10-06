@@ -1,0 +1,56 @@
+.contact-section {
+  width: 100%;
+  padding: 64px 6%;
+  background:
+    linear-gradient(
+      90deg,
+      rgba(41, 164, 168, 0.94) 0%,
+      rgba(72, 188, 198, 0.84) 58%,
+      rgba(150, 242, 247, 0.58) 100%
+    ),
+    url("/images/purple-health-bg.jpg") center / cover no-repeat;
+  box-sizing: border-box;
+}
+
+.contact-content {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact-content h2 {
+  margin: 0 0 18px;
+  line-height: 1.1;
+  color: #ffffff;
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 800;
+  letter-spacing: -0.04em;
+  text-shadow: 0 4px 25px rgba(6, 49, 53, 0.786);
+}
+
+.contact-phone {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 15px 28px;
+  border-radius: 999px;
+  background-color: #ffffff;
+  color: #0e8e9f;
+  font-size: 1.2rem;
+  font-weight: 800;
+  box-shadow: 0 14px 35px rgba(0, 70, 75, 0.22);
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .contact-section {
+    padding: 48px 20px;
+  }
+
+  .contact-phone {
+    width: 100%;
+    max-width: 320px;
+    font-size: 1.05rem;
+  }
+}
