@@ -24,47 +24,53 @@ export default function Location() {
       name: "Hennick Humber Hospital - Schulich Family Medicine Teaching Unit - 1235 Wilson Ave, Toronto (Keele & Wilson)",
       code: "HH",
       borderRadius: "50%",
-      description:
-        "Short wait time (less than 4 weeks), free interpreter service, access to social worker, dietitian, pharmacist, nurse practitioner, and nurses, evening and weekend hours available for urgent needs, easier access to specialists in the hospital, reduced parking rate available. OHIP and IFH required.",
+      description: [
+        "Short wait time.",
+        "Free interpreter service, access to social worker, dietitian, pharmacist, nurse practitioner, and nurses, evening and weekend hours available for urgent needs, easier access to specialists in the hospital, reduced parking rate available.",
+        "OHIP and IFHP required.",
+      ],
       color: "#ff6b6b",
     },
     {
       name: "Azar Medical Clinic - 7099 Yonge Street, Thornhill (Yonge & Steeles)",
       code: "AZ",
       borderRadius: "50%",
-      description:
-        "Free parking, in-person and online appointments available, pediatrician and endocrinologist available, less than 4 weeks wait time. OHIP and IFHP required.",
+      description: [
+        "Short wait time.",
+        "Free parking, in-person and online appointments available, pediatrician and endocrinologist available.",
+        "OHIP and IFHP required.",
+      ],
       color: "#22b8cf",
     },
   ];
 
   const unisonLocations = [
     {
-      name: "Unison's Bathurst-Finch Hub - 504 Finch Avenue West (Bathurst and Finch)",
+      name: "Bathurst-Finch Hub - 504 Finch Avenue West (Bathurst and Finch)",
       code: "BF",
       borderRadius: "8px",
       color: "#4dabf7",
     },
     {
-      name: "Unison's Lawrence Heights - 12 Flemington Road (Lawrence & Allen Road)",
+      name: "Lawrence Heights - 12 Flemington Road (Lawrence & Allen Road)",
       code: "LH",
       borderRadius: "8px",
       color: "#845ef7",
     },
     {
-      name: "Unison's Jane Street Hub - 1541 Jane Street (Jane & Trethewey)",
+      name: "Jane Street Hub - 1541 Jane Street (Jane & Trethewey)",
       code: "JT",
       borderRadius: "8px",
       color: "#f59f00",
     },
     {
-      name: "Unison's Oakwood Vaughan location - 501 Oakwood Avenue (Oakwood & Vaughan Road)",
+      name: "Oakwood Vaughan location - 501 Oakwood Avenue (Oakwood & Vaughan Road)",
       code: "OV",
       borderRadius: "8px",
       color: "#e64980",
     },
     {
-      name: "Unison's Keele Rogers location - 1651 Keele Street (Keele & Rogers)",
+      name: "Keele Rogers location - 1651 Keele Street (Keele & Rogers)",
       code: "KR",
       borderRadius: "8px",
       color: "#51cf66",
@@ -99,7 +105,16 @@ export default function Location() {
               >
                 <LocationTitle location={location} />
 
-                {location.description && <p>{location.description}</p>}
+                {location.description && (
+                  <p>
+                    {location.description.map((line, i) => (
+                      <span key={i}>
+                        {line}
+                        {i < location.description.length - 1 && <br />}
+                      </span>
+                    ))}
+                  </p>
+                )}
               </div>
             ))}
 
@@ -131,6 +146,8 @@ export default function Location() {
               </summary>
 
               <div className="location-group-list">
+                <p className="location-group-wait">Long wait time</p>
+
                 {unisonLocations.map((location) => (
                   <div
                     className="location-sub-item"
@@ -143,7 +160,9 @@ export default function Location() {
                   </div>
                 ))}
 
-                <p className="location-group-note">Note: 12+ weeks wait time</p>
+                <p className="location-group-note">
+                  Note: Uninsured may be eligible
+                </p>
               </div>
             </details>
           </div>
