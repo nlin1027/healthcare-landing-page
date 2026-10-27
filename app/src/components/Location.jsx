@@ -27,7 +27,7 @@ export default function Location() {
       description: [
         "Short wait time.",
         "Free interpreter service, access to social worker, dietitian, pharmacist, nurse practitioner, and nurses, evening and weekend hours available for urgent needs, easier access to specialists in the hospital, reduced parking rate available.",
-        "OHIP and IFHP required.",
+        "OHIP required.",
       ],
       color: "#ff6b6b",
     },
